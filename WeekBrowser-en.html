@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeekBrowser — lightweight Android browser</title>
+  <meta name="description" content="WeekBrowser — lightweight and open-source Android browser with ad-blocking, multi-window mode, and JavaScript commands support.">
+  <style>
+    body {
+      background: #000000;
+      color: #E0FFE0;
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    a {
+      color: #00CC66;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    a:hover {
+      color: #00FF7F;
+      text-decoration: underline;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    header a {
+      margin-left: 15px;
+      font-weight: bold;
+    }
+    h1, h2, h3 {
+      color: #00FF7F;
+      margin-top: 1.4em;
+    }
+    .section {
+      margin-bottom: 1.5em;
+    }
+    ul {
+      padding-left: 1.2em;
+    }
+    .note {
+      color: #FF6666;
+    }
+    .highlight {
+      color: #00FF7F;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #88CC88;
+    }
+    @media (max-width: 600px) {
+      body { padding: 15px; }
+      header { flex-direction: column; align-items: flex-end; }
+      header a { margin: 5px 0 0 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="WeekBrowser-uk.html">Українська</a>
+  <a href="WeekBrowser-ru.html">Русский</a>
+  <a href="index.html">Home</a>
+</header>
+
+<h1>WeekBrowser</h1>
+<h2>Lightweight Android browser with open-source code</h2>
+
+<div class="section">
+  <p>
+    WeekBrowser is a simple, fast, and privacy-friendly Android browser.  
+    It supports JavaScript commands, multi-window mode, ad-blocking, and is fully open-source (<strong>The Unlicense</strong>).
+  </p>
+</div>
+
+<div class="section">
+  <h3>⚙️ System requirements</h3>
+  <ul>
+    <li>Minimum: Android 4.2+</li>
+    <li>Recommended: Android 8.0+</li>
+    <li>Languages: Ukrainian, English, Russian</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>🌟 Key features</h3>
+  <ul>
+    <li><strong>Supermenu:</strong> long-press on any page element to access extra actions — block ads, download, view code, or open in a new tab.</li>
+    <li><strong>Multi-window mode:</strong> open multiple sites at once or create “multi-links” for quick opening of multiple tabs.</li>
+    <li><strong>Ad-blocker:</strong> uses regular expressions to save memory and blocks video ads when possible.</li>
+    <li><strong>Position manager:</strong> save your scroll position to continue reading later.</li>
+    <li><strong>Skins:</strong> 20+ themes including dynamic colors for Android 12+.</li>
+    <li><strong>Site exceptions:</strong> per-domain settings — colors, scripts, features.</li>
+    <li><strong>URL search & replace:</strong> automatically redirect sites, e.g., youtube.com → ssyoutube.com for video downloads.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>🔧 Extensions</h3>
+  <p>Supports its own JavaScript-based extension format. They execute during page load, can intercept requests, and are importable/exportable via special links.</p>
+</div>
+
+<div class="section">
+  <h3>⚠️ Known issues</h3>
+  <ul>
+    <li><strong>Downloads:</strong> BLOB files may fail (XHR error).</li>
+    <li><strong>Interface:</strong> might be unintuitive in places — feedback is appreciated.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>📬 Feedback</h3>
+  <p>
+    Feedback and suggestions: <a href="https://t.me/week_thor" target="_blank">Telegram</a><br>
+    Updates channel: <a href="https://t.me/a525team" target="_blank">t.me/a525team</a><br>
+    Source code: <a href="https://github.com/week5thor/WeekBrowser" target="_blank">GitHub</a>
+  </p>
+</div>
+
+<footer>
+  &copy; 2025 WeekBrowser
+</footer>
+
+</body>
+</html>
