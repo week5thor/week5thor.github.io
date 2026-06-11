@@ -7,5 +7,3 @@ Supports JavaScript - extensions, multi window and have one of the best ad block
 
 ## Завантаження
 [APK Releases](https://github.com/week5thor/WeekBrowser/releases)
-
-[•](file:///sdcard/1.html)
